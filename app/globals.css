@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Press Start 2P', system-ui;
+  background: black;
+  color: white;
+}
+
+.pixelated {
+  image-rendering: pixelated;
+}
