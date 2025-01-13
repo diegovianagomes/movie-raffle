@@ -1,4 +1,4 @@
-# diegovianagomes-movie-raffle
+# movie-raffle
 
 This project is a movie and series raffle application built with Next.js, utilizing the TMDB API to fetch movie data. It provides a way to randomly select a movie from a user's personal movie list, along with information on where to watch it.
 
