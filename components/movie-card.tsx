@@ -1,11 +1,10 @@
-import Image from 'next/image'
-//import { Star } from 'lucide-react'
-import { type Movie } from '@/utils/tmdb'
-import { getImagePath } from '@/utils/tmdb'
+import Image from 'next/image';
+import { type Movie } from '@/utils/tmdb';
+import { getImagePath } from '@/utils/tmdb';
 
 export function MovieCard({ title, poster_path, vote_average, release_date }: Movie) {
-  const year = new Date(release_date).getFullYear()
-  
+  const year = new Date(release_date).getFullYear();
+
   return (
     <div className="nes-container is-dark with-title">
       <p className="title line-clamp-1">{title}</p>
@@ -25,6 +24,5 @@ export function MovieCard({ title, poster_path, vote_average, release_date }: Mo
         </div>
       </div>
     </div>
-  )
+  );
 }
-
